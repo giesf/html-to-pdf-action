@@ -14,6 +14,7 @@ class HTML5ToPDF {
       outputPath,
       launchOptions,
       pdfOptions,
+      renderDelay
     } = options
 
     const pdf = pdfOptions
@@ -22,7 +23,8 @@ class HTML5ToPDF {
     return {
       pdf,
       launchOptions,
-      inputPath
+      inputPath,
+      renderDelay
     }
   }
 
