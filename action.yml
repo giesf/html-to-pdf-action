@@ -9,7 +9,12 @@ inputs:
   outputFile:
     description: "output file path"
     required: true
-
+    
+  renderDelay:
+    description: "Wait for everything to render"
+    required: false
+    default: "0"
+    
   pdfOptions:
     description: |
       PDF options as described here:
